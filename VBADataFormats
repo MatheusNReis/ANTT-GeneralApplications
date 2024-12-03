@@ -1,0 +1,21 @@
+https://support.microsoft.com/en-us/office/format-function-6f29d87b-8761-408d-81d3-63b9cd842530
+
+Dim MyTime, MyDate, MyStr
+MyTime = #17:04:23#
+MyDate = #January 27, 1993#
+' Returns current system time in the system-defined long time format.
+MyStr = Format(Time, "Long Time")
+' Returns current system date in the system-defined long date format.
+MyStr = Format(Date, "Long Date")
+MyStr = Format(MyTime, "h:m:s")    ' Returns "17:4:23".
+MyStr = Format(MyTime, "hh:mm:ss AMPM")    ' Returns "05:04:23 PM".
+MyStr = Format(MyDate, "dddd, mmm d yyyy")    ' Returns "Wednesday,
+    ' Jan 27 1993".
+' If format is not supplied, a string is returned.
+MyStr = Format(23)    ' Returns "23".
+' User-defined formats.
+MyStr = Format(5459.4, "##,##0.00")    ' Returns "5,459.40".
+MyStr = Format(334.9, "###0.00")    ' Returns "334.90".
+MyStr = Format(5, "0.00%")    ' Returns "500.00%".
+MyStr = Format("HELLO", "<")    ' Returns "hello".
+MyStr = Format("This is it", ">")    ' Returns "THIS IS IT".
