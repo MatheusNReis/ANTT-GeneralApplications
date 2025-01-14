@@ -1,5 +1,7 @@
 Sub Histograma_Percentis()
-    
+
+'Related to ModifyActiveHistogramChart.bas
+
     Dim ws As Worksheet
     Set ws = ThisWorkbook.Sheets(1)
     
