@@ -1,5 +1,7 @@
 Sub Histograma_Percentis()
-    
+
+'Related to ModifyActiveHistogramChart.bas
+
     'Calcula Percentis de lista e gera gráfico de histograma com frequências acumuladas
     'Dois métodos para determinação do número de blocos (Fórmula de sturges ou Raiz Quadrada)
     
