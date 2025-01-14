@@ -1,5 +1,6 @@
 Sub ModifyActiveHistogramChart()
 
+'Related to Histogram_Percentiles.bas and Histogram_Percentiles V1.bas
 
     'Configura o histograma ativo na planilha
     'Mostra dados no gráfico referentes à linha de dado definida
@@ -11,7 +12,7 @@ Sub ModifyActiveHistogramChart()
     'Copyright © 2024 Matheus Nunes Reis. All rights reserved.
     
     'GitHub: MatheusNReis
-    'License:
+    'License: https://raw.githubusercontent.com/MatheusNReis/ANTT-GeneralApplications/f42f8a51670e8bd174977dc3645c37f716873aa6/LICENSE
     'MIT License. Copyright © 2024 MatheusNReis
     
 
