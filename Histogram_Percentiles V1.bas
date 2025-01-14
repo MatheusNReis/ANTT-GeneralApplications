@@ -12,7 +12,7 @@ Sub Histograma_Percentis()
     'Copyright © 2024 Matheus Nunes Reis. All rights reserved.
     
     'GitHub: MatheusNReis
-    'License:
+    'License: https://raw.githubusercontent.com/MatheusNReis/ANTT-GeneralApplications/889ee3f12bd9a4ac0ae97e93819f4581fa69465d/LICENSE
     'MIT License. Copyright © 2024 MatheusNReis
     
     
