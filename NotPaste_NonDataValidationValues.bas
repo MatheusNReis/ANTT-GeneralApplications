@@ -1,7 +1,7 @@
 Private Sub Worksheet_Change(ByVal Target As Range)
 
 'Unallow changes in cell value, like copy or type data not belonging to the drop-down list
-'Activated by trigger (any attempt to change cell value)
+'Activated by trigger (any attempt to change active cell's value)
 
     Dim cell As Range
     Dim found As Boolean
